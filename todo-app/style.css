@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.search-term, .new-todo {
+  padding: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.todos {
+  margin-bottom: 20px;
+}
+
+.todo {
+  padding: 8px;
+  border: 1px solid goldenrod;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.delete {
+  color: red;
+  padding-left: 40px;
+  float: right;
+}
+
+.filtered {
+  display: none;
+}
